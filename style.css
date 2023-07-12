@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    background: #6A84A6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+
+
+}
+
+p,
+h1 {
+    color: rgb(232, 228, 228);
+
+}
+
+h1 {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+
+
+}
+
+h2 {
+    color: #FBFFA5;
+    font-size: 3rem;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+
+    padding: 2rem 5rem;
+}
+
+.menu__lista {
+    align-items: center;
+}
+
+.menu__item {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-transform: uppercase;
+    color: green;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 80px;
+}
+
+.cabecalho__logo {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.img__titulo {
+    width: 150px;
+    margin-top: 8rem;
+}
+
+.principal__Img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+
+    border-radius: 5rem;
+    box-shadow: 18px 11px 17px -3px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+
+
+
+
+.sobreNos {
+    display: flex;
+    gap: 50px;
+
+}
+
+.dogSobre {
+    width: 500px;
+
+    border-radius: 20px;
+    box-shadow: 18px 11px 17px -3px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Rodapé */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+
+}
+
+.pFooter {
+    color: rgb(0, 24, 0);
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #1e559e;
+    
+   
+
+}
+

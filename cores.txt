@@ -1,0 +1,6 @@
+Cores
+
+Azul escuro: #6A84A6
+Azul claro: #BCCCE1
+Bege: #FFF4E1
+
