@@ -43,6 +43,11 @@ h2 {
 
 }
 
+p{
+    font-size: 2rem;
+   
+}
+
 /*Cabeçalho */
 
 .cabecalho {
@@ -105,28 +110,30 @@ main {
     border-radius: 5rem;
     box-shadow: 18px 11px 17px -3px rgba(0, 0, 0, 0.1);
 
-
-
 }
 
 
 
-
-
-.sobreNos {
-    display: flex;
-    gap: 50px;
-
-}
+/* Sobre nós */
 
 .dogSobre {
-    width: 500px;
-
+    width: 60rem;
+  
     border-radius: 20px;
     box-shadow: 18px 11px 17px -3px rgba(0, 0, 0, 0.1);
 }
 
+.texto__sobreNos {
+    width: 50rem;
+    line-height: 3rem;
+    text-align: justify;
+    margin-top: 5rem;
+   
+}
 
+.texto__sobreNos p {
+    margin-top: 5rem;
+}
 /* Rodapé */
 
 footer {
