@@ -43,6 +43,8 @@ h2 {
 
 }
 
+/*Cabeçalho */
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -53,6 +55,7 @@ h2 {
 
 .menu__lista {
     align-items: center;
+    margin-top: 2rem;
 }
 
 .menu__item {
@@ -64,17 +67,23 @@ h2 {
 
 }
 
+.menu__item a:hover{
+    font-weight: bold;
+}
+
 a {
     text-decoration: none;
 }
 
 .logo {
-    width: 80px;
+    width: 60px;
 }
 
 .cabecalho__logo {
     text-align: center;
 }
+
+/* Main */
 
 main {
     display: flex;
